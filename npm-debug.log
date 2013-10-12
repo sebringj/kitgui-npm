@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/JasonSebring/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+12 verbose folder .
+13 info prepublish kitgui@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/JasonSebring/.npm/1f1177db-tar.lock
+16 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+17 verbose lock tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz /Users/JasonSebring/.npm/55d86829-64068-0-8527653981000185-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+21 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+22 verbose tar unpack /var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+23 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+24 verbose lock tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package /Users/JasonSebring/.npm/10fcaa76-64068-0-8527653981000185-package.lock
+25 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+26 verbose lock tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz /Users/JasonSebring/.npm/55d86829-64068-0-8527653981000185-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+32 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+33 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+34 silly lockFile 55d86829-64068-0-8527653981000185-tmp-tgz tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/tmp.tgz
+35 verbose tar pack [ '/Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz',
+35 verbose tar pack   '/var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package' ]
+36 verbose tarball /Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+37 verbose folder /var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+38 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+39 verbose lock tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package /Users/JasonSebring/.npm/10fcaa76-64068-0-8527653981000185-package.lock
+40 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+41 verbose lock tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz /Users/JasonSebring/.npm/9153cb19-ing-npm-kitgui-0-0-0-package-tgz.lock
+42 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+43 silly lockFile 10fcaa76-64068-0-8527653981000185-package tar:///var/folders/cs/m6ccblf51vjcmsn0vpz15pb40000gn/T/npm-61649-1jTY66lT/1381620164068-0.8527653981000185/package
+44 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+45 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+46 silly lockFile e1cccfd6-Sebring-npm-kitgui-0-0-0-package /Users/JasonSebring/.npm/kitgui/0.0.0/package
+47 verbose lock /Users/JasonSebring/.npm/kitgui/0.0.0/package /Users/JasonSebring/.npm/e1cccfd6-Sebring-npm-kitgui-0-0-0-package.lock
+48 silly lockFile e1cccfd6-Sebring-npm-kitgui-0-0-0-package /Users/JasonSebring/.npm/kitgui/0.0.0/package
+49 silly lockFile e1cccfd6-Sebring-npm-kitgui-0-0-0-package /Users/JasonSebring/.npm/kitgui/0.0.0/package
+50 verbose tar unpack /Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+51 silly lockFile 92f2c90c-Sebring-npm-kitgui-0-0-0-package tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package
+52 verbose lock tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package /Users/JasonSebring/.npm/92f2c90c-Sebring-npm-kitgui-0-0-0-package.lock
+53 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+54 verbose lock tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz /Users/JasonSebring/.npm/9153cb19-ing-npm-kitgui-0-0-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry index.js
+59 silly lockFile 92f2c90c-Sebring-npm-kitgui-0-0-0-package tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package
+60 silly lockFile 92f2c90c-Sebring-npm-kitgui-0-0-0-package tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package
+61 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+62 silly lockFile 9153cb19-ing-npm-kitgui-0-0-0-package-tgz tar:///Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz
+63 verbose chmod /Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz 644
+64 verbose chown /Users/JasonSebring/.npm/kitgui/0.0.0/package.tgz [ 501, 20 ]
+65 silly lockFile 3a52ce78- .
+66 silly lockFile 3a52ce78- .
+67 silly publish { name: 'kitgui',
+67 silly publish   version: '0.0.0',
+67 silly publish   description: 'npm for kitgui.com',
+67 silly publish   main: 'index.js',
+67 silly publish   dependencies: { async: '~0.2.9' },
+67 silly publish   devDependencies: {},
+67 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+67 silly publish   repository: { type: 'git', url: 'https://github.com/sebringj/kitgui-npm' },
+67 silly publish   keywords: [ 'kitgui', 'cms' ],
+67 silly publish   author: { name: 'Emerald Code Inc.' },
+67 silly publish   license: 'BSD',
+67 silly publish   bugs: { url: 'https://github.com/sebringj/kitgui-npm/issues' },
+67 silly publish   readme: '# kitgui npm - by Emerald Code Inc.\n\n## Summary\n\nnpm package to consume kitgui.com CMS SAAS\n\n## API Documentation\n\nvar kitgui = require(\'kitgui\');\n\nkitgui.getContents({\n\n    // CDN host\n\thost : String,\n\t\n\t// CDN base path\n\tbasePath : String,\n\t\n\t// "items" consist of objects with the following.\n\t// "id" which is requires html id attribute format\n\t// "kind" which is "ids", "seo", or "vars"\n\t// "editorType" which is "INLINE", "HTML", "IMAGE-ROTATOR", "RAW", "TEAM" (so far)\n\titems : [{ id: String, kind : String, editorType : String }],\n});\n\n## License\n\nThis npm is dual licensed under the MIT and GPL licenses.\n\nThe KitGUI.com is privately owned by Emerald Code Inc. \n\nSee [Pricing Details](https://www.kitgui.com)\n\n## Thanks to�\n\n* [Hubsoft](http://www.hubsoft.com/) and its clients\n\n_� [Emerald Code](http://www.emeraldcode.com/)_',
+67 silly publish   readmeFilename: 'README.md',
+67 silly publish   _id: 'kitgui@0.0.0',
+67 silly publish   dist: { shasum: '6032929702d4c18baac6cb973c8fe82f37b4a2dd' },
+67 silly publish   _from: '.' }
+68 verbose url raw kitgui
+69 verbose url resolving [ 'https://registry.npmjs.org/', './kitgui' ]
+70 verbose url resolved https://registry.npmjs.org/kitgui
+71 info trying registry request attempt 1 at 16:22:44
+72 http PUT https://registry.npmjs.org/kitgui
+73 http 409 https://registry.npmjs.org/kitgui
+74 verbose url raw kitgui
+75 verbose url resolving [ 'https://registry.npmjs.org/', './kitgui' ]
+76 verbose url resolved https://registry.npmjs.org/kitgui
+77 info trying registry request attempt 1 at 16:22:44
+78 http GET https://registry.npmjs.org/kitgui
+79 http 200 https://registry.npmjs.org/kitgui
+80 error publish fail Cannot publish over existing version.
+80 error publish fail Update the 'version' field in package.json and try again.
+80 error publish fail
+80 error publish fail If the previous version was published in error, see:
+80 error publish fail     npm help unpublish
+80 error publish fail
+80 error publish fail To automatically increment version numbers, see:
+80 error publish fail     npm help version
+81 error System Darwin 12.4.0
+82 error command "node" "/usr/local/bin/npm" "publish"
+83 error cwd /Users/JasonSebring/Documents/Projects/kitgui/kitgui-npm
+84 error node -v v0.10.15
+85 error npm -v 1.3.5
+86 error code EPUBLISHCONFLICT
+87 verbose exit [ 1, true ]

@@ -4,8 +4,6 @@
 
 npm package to consume kitgui.com CMS SAAS
 
-$ npm kitgui
-
 ## API Documentation
 
 var kitgui = require('kitgui');
