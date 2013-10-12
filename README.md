@@ -22,15 +22,6 @@ kitgui.getContents({
 	// "kind" which is "ids", "seo", or "vars"
 	// "editorType" which is "INLINE", "HTML", "IMAGE-ROTATOR", "RAW", "TEAM" (so far)
 	items : [{ id: String, kind : String, editorType : String }],
-	
-	// cache is plain object with name-value pairs
-	cache : {},
-	
-	// disables reading cache on the request, useful when in edit mode, default is true
-	cacheNoRead : Boolean,
-	
-	// disables cache, default is true
-	cacheDisable : Boolean
 });
 
 ## License
