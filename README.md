@@ -1,8 +1,8 @@
-# kitgui npm - by Emerald Code Inc.
+# kitgui - by Emerald Code Inc.
 
 ## Summary
 
-npm package to consume kitgui.com CMS SAAS
+consumes kitgui.com CMS SAAS
 
 ## API Documentation
 
@@ -25,7 +25,7 @@ kitgui.getContents({
 
 ## License
 
-This npm is dual licensed under the MIT and GPL licenses.
+This kitgui node packjage is dual licensed under the MIT and GPL licenses.
 
 The KitGUI.com is privately owned by Emerald Code Inc. 
 
