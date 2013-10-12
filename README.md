@@ -9,6 +9,7 @@ $ npm kitgui
 ## API Documentation
 
 var kitgui = require('kitgui');
+
 kitgui.getContents({
 
     // CDN host
