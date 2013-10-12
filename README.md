@@ -6,10 +6,6 @@ npm package to consume kitgui.com CMS SAAS
 
 $ npm kitgui
 
-## Demo
-
-[http://api.emeraldcode.com/demo/products.htm](http://api.emeraldcode.com/demo/products.htm)
-
 ## API Documentation
 
 var kitgui = require('kitgui');
