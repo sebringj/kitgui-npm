@@ -1,38 +1,16 @@
 var async = require('async'),
 	http = require('http');
-	
-function getCacheKey(item) {
-	return item.kind + '-' + item.id;
-}
 
 module.exports = (function(){	
 	function getItems(options, callback) {
 		
-		var i = 0, req = options.req, cacheKey,
-			cache = options.cache,
-			items = [];
+		var i = 0, items = [];
 			
-		if (!cache) {
-			cache = [];
-		}
-		
-		if (req.cookie && req.cookie.kitgui) {
-			for(; i < options.items.length; i++) {
-				cacheKey = getCacheKey(options.items[i]);
-				if (cache[cacheKey] && i > -1) {
-				    delete cache[cacheKey];
-				}
-			}
+		if (!options.items || options.items.length === 0) {
+			callback([]);
 		}
 		
 		async.forEach(options.items, function(item, callback) {
-			var cacheKey = getCacheKey(item);
-
-			if (typeof cache[cacheKey] !== 'undefined') {
-				items.push(cache[cacheKey]);
-				callback();
-				return;
-			}
 			
 			var reqOptions = {
 				host: options.host, 
@@ -49,7 +27,6 @@ module.exports = (function(){
 						content: content, 
 						editorType : item.editorType
 					};
-					cache[cacheKey] = theItem;
 					items.push(theItem);
 					callback();
 				} else {
