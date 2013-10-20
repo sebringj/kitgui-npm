@@ -4,7 +4,8 @@
   "description": "npm for kitgui.com",
   "main": "index.js",
   "dependencies": {
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "xmldom": "~0.1.16"
   },
   "devDependencies": {},
   "scripts": {
